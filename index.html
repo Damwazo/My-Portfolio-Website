@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevDam Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/ecc5caf0c5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Mes compétences</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Qui suis-je ?</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Mon Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="cv/index.html" class="nav__link">Mon C.V.</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Bonjour, je suis <strong>Damien Goureau</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Développeur Web Junior
+      </p>
+      <img
+        src="img/Photo12_11A.png"
+        alt="une photo de Damien Goureau"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- Mes compétences-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Ce que je fais</h2>
+      <div class="services">
+        <!-- / service-->
+
+        <div class="service">
+          <h3>
+            <i class="fab fa-html5"></i> HTML &
+            <i class="fab fa-css3-alt"></i> CSS,
+            <i class="fab fa-bootstrap"></i> Bootstrap
+          </h3>
+          <p>
+            <ul><li>Création de pages web de A à Z</li>
+              <li>Conversion d'une
+                maquette en site web (respect d'une charte graphique)</li>
+                <li>CSS natif</li>
+                <li>Utilisation du framework Bootstrap</li>
+                <li>Rendre un site web Responsive</li>
+             </ul>
+          </p>
+        </div>
+
+        <!-- / service-->
+
+        <div class="service">
+          <h3><i class="fab fa-js-square"></i> Javascript</h3>
+          <p>
+            <ul> <li>Rendre les pages web dynamiques et interactives </li>
+              <li>Conception des interfaces utilisateurs dynamiques avec
+                Javascript</li>
+              <li>Conception de projets web basés sur de
+                  l’orientée objet</li>
+              <li>ES6, NPM</li>
+              <li>Refactorisation du code avec la méthode MVC</li>
+            </ul>
+          </p>
+        </div>
+
+        <!-- / service-->
+
+        <div class="service">
+          <h3><i class="fab fa-node"></i> & Express</h3>
+          <p>
+            <ul>
+              <li>NodeJS : Javascript côté serveur, avec NPM</li>
+              <li>Création de base de données avec MongoDB</li>
+              <li>Gestion de bases de données avec Mongoose</li>
+              <li>Création d'applications web avec Express.js</li>
+            </ul>
+          </p>
+        </div>
+        <!-- / service-->
+      </div>
+      <!-- / services-->
+
+      <a href="#work" class="btn">Mon Portfolio</a>
+    </section>
+
+    <!--About me-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Qui suis-je ?</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Chef de projet, reconverti en Développeur Web Junior
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Ancien chef de projet culturel spécialisé en finance du marché des
+          arts, j’ai décidé de changer de carrière lorsque la crise du Covid
+          éclata. Le projet était mûrement réfléchi, car c’est durant la
+          dernière année de mes études que je commençais à étudier le code
+          informatique. D’abord, pour des besoins de recherche (appelons cela de
+          l’analyse fondamentale) sur des projets numérique utilisant la
+          Blockchain. De la recherche de la définition du concept, à la
+          découverte des cryptomonnaies, il n’y a eu qu’un pas, et je me pris de
+          passion pour cet univers. Mais ne courrais-je pas après des chimères ?
+          Afin d’être sûr du potentiel des projets qui m’interpellaient, je devais
+          comprendre ce qu’il y avait derrière cette technologie. L’état du
+          marché de l’art et surtout de la culture ayant été mis à mal par la
+          crise du Covid, je commençais à sentir l’envie de devenir développeur
+          Blockchain.
+        </p>
+        <p>
+          J’ai donc compulsé toutes les informations que je pouvais trouver sur
+          le web, concernant ce métier, et j’ai découvert qu’il fallait de
+          solides compétences en développement web « classique » : Non seulement
+          des compétences de front-end, mais aussi de back-end. Je me suis donc
+          lancé dans l’apprentissage de la programmation web. A l’heure
+          actuelle, je ne peux pas encore prétendre à être développeur
+          Blockchain, mais c’est un idéal que j’aspire, car pour moi il est
+          clair que le développement web subira ce changement de paradigme
+          informatique. En attendant, je propose mes compétences pour le marché
+          du développement web d’aujourd’hui, tout en me formant pour le
+          développement web de demain.
+        </p>
+      </div>
+
+      <img
+        src="img/7D__2453_DxO.png"
+        alt="une photo de Damien"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">Mon Portfolio</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Une sélection de mes projets créés durant mes formations
+      </p>
+
+      <div class="portfolio">
+        <!--Portfolio item 01 -->
+        <a href="portfolio-photoblog.html" class="portfolio__item">
+          <img
+            src="img/portfolio-img/photo-blog.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!--Portfolio item 02 -->
+        <a href="portfolio-bootstrap-project.html" class="portfolio__item">
+          <img
+            src="img/portfolio-img/fleuriste_page_web_bootstrap.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!--Portfolio item 03 -->
+        <a href="portfolio-museum-candy.html" class="portfolio__item">
+          <img
+            src="img/portfolio-img/museum-of-candy.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!--Portfolio item 04 -->
+        <a href="portfolio-pricing-panel.html" class="portfolio__item">
+          <img
+            src="img/portfolio-img/pricing-panel.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!--Portfolio item 05 -->
+        <a href="portfolio-ping-pong-score.html" class="portfolio__item">
+          <img
+            src="img/portfolio-img/compteur-ping-pong.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!--Portfolio item 06 -->
+        <a href="portfolio-guess-my-number-game.html" class="portfolio__item">
+          <img
+            src="img/portfolio-img/Guess-my-number-game.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!--Portfolio item 07 -->
+        <a href="portfolio-pig-game.html" class="portfolio__item">
+          <img
+            src="img/portfolio-img/pig-game.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!--Portfolio item 08 -->
+        <a href="portfolio-bankist-website.html" class="portfolio__item">
+          <img
+            src="img/portfolio-img/bankist-website.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!--Portfolio item 09 -->
+        <a href="portfolio-bankist-app.html" class="portfolio__item">
+          <img
+            src="img/portfolio-img/bankist-app.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!--Portfolio item 10 -->
+        <a href="portfolio-mapty.html" class="portfolio__item">
+          <img
+            src="img/portfolio-img/mapty.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!--Portfolio item 11 -->
+        <a href="portfolio-forkify.html" class="portfolio__item">
+          <img
+            src="img/portfolio-img/forkify.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="mailto:damien.goureau@gmail.com" class="footer__link"
+        >damien.goureau@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.freecodecamp.org/damwazo"
+            ><i class="fab fa-free-code-camp"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/damien-goureau-176b92184"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Damwazo"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevDam Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/ecc5caf0c5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!--<div class="logo">
+        <img src="img/logo-webpage-dam.PNG" alt="" />
+      </div>-->
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Mes compétences</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">Qui suis-je ?</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">Mon Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="cv/index.html" class="nav__link">Mon C.V.</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        <strong>Bankist</strong> App
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Projet N°9</p>
+      <img src="img/portfolio-img/bankist-app.PNG" alt="" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        Voici une interface en ligne pour l'application bancaire du service
+        "Bankist". Elle recense tous les mouvements d'argent du client, en
+        affichant le solde total du compte. Trois fonctionnalités sont
+        disponibles et actives : Le Transfert d'argent vers un autre compte
+        client de cette banque, la demande de prêt et la fermeture du compte
+        affiché. Les mouvements d'argent sont affichés et mis à jour en temps
+        réel et un calcul d'intérêt est également mis en place.
+      </p>
+      <img src="img/portfolio-img/bankist-app-detail.JPG" alt="" />
+      <p>
+        Pour utiliser l'application, deux comptes utilisateurs factices ont été
+        créés : Les identifiants du premier compte sont les suivants :
+        <br />
+        user = js et pin = 1111. <br />Les identifiants du deuxième compte sont
+        : <br />
+        user = jd et le code pin = 2222. <br />
+        Un minuteur est également intégré; si vous ne touchez plus à rien sur la
+        page, vous serez automatiquement déconnecté.
+      </p>
+      <p>
+        Vous trouverez un organigramme et le code de cette application web vers
+        ce
+        <a href="https://github.com/Damwazo/bankist-app-repo">repo GitHub</a>,
+        et la version live à essayer
+        <a href="https://bankist-app-damwazo.netlify.app/"> ici</a>.
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="mailto:damien.goureau@gmail.com" class="footer__link"
+        >damien.goureau@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.freecodecamp.org/damwazo"
+            ><i class="fab fa-free-code-camp"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="www.linkedin.com/in/damien-goureau-176b92184"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Damwazo"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
